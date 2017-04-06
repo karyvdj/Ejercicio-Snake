@@ -44,11 +44,21 @@ function avanzarSerpiente() {
           serpiente.style.marginTop = posicionY +"px" ;
         }
       break;
-      default:
-        // alert("Pulsa solo las flechas");
+      // default:
+         // alert("Pulsa solo las flechas");
   }
 }
 
 function gameOver() {
   alert("GAME OVER");
+  document.removeEventListener("keydown", avanzarSerpiente);
+}
+
+var reinicio = document.getElementById("reinicio");
+
+function reinicioJuego() {
+  var posicionX = 0;
+  var posicionY = 0;
+  
+
 }

@@ -4,20 +4,25 @@ header{
   color: #FF930A;
   background: #FDEEB6;
   padding: 1px;
-  margin: 20px;
+  margin: 10px;
 }
 #serpiente {
-  position:absolute;
   width:20px;
   height:20px;
   background:green;
+  position: absolute;
 }
 #tabla {
   background:#E3F5B0;
   margin: 0 auto;
   width:500px;
-  height:500px
+  height:500px;
 }
 img{
   width: 20px;
+  margin: 5px;
+}
+button{
+  margin-left: 45%;
+  margin-bottom: 20px;
 }

@@ -1,0 +1,23 @@
+header{
+  text-align: center;
+  font-family: Helvetica;
+  color: #FF930A;
+  background: #FDEEB6;
+  padding: 1px;
+  margin: 20px;
+}
+#serpiente {
+  position:absolute;
+  width:20px;
+  height:20px;
+  background:green;
+}
+#tabla {
+  background:#E3F5B0;
+  margin: 0 auto;
+  width:500px;
+  height:500px
+}
+img{
+  width: 20px;
+}

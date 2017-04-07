@@ -44,6 +44,9 @@ function avanzarSerpiente() {
           serpiente.style.marginTop = posicionY +"px" ;
         }
       break;
+      case 13 : //ENTER
+        reinicioJuego();
+      break;
       // default:
          // alert("Pulsa solo las flechas");
   }
@@ -55,10 +58,11 @@ function gameOver() {
 }
 
 var reinicio = document.getElementById("reinicio");
+reinicio.addEventListener("click",reinicioJuego);
 
 function reinicioJuego() {
-  var posicionX = 0;
-  var posicionY = 0;
-  
-
+  posicionX = 0;
+  posicionY = 0;
+  serpiente.style.marginLeft = posicionX;
+  serpiente.style.marginTop = posicionY;
 }

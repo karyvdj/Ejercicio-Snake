@@ -46,6 +46,7 @@ function avanzarSerpiente() {
       break;
       case 13 : //ENTER
         reinicioJuego();
+        alert(event.key);
       break;
       // default:
          // alert("Pulsa solo las flechas");
@@ -65,4 +66,5 @@ function reinicioJuego() {
   posicionY = 0;
   serpiente.style.marginLeft = posicionX;
   serpiente.style.marginTop = posicionY;
+  document.addEventListener("keydown", avanzarSerpiente);
 }

@@ -1,8 +1,12 @@
+
+body{
+  background: #F9F1E3;
+}
 header{
   text-align: center;
   font-family: Helvetica;
   color: #FF930A;
-  background: #FDEEB6;
+  background: #F8DDAE;
   padding: 1px;
   margin: 10px;
 }
@@ -13,7 +17,7 @@ header{
   position: absolute;
 }
 #tabla {
-  background:#E3F5B0;
+  background:#DBEAA5;
   margin: 0 auto;
   width:500px;
   height:500px;
@@ -26,4 +30,8 @@ button{
   margin-left: 45%;
   margin-bottom: 20px;
   border-radius: 10px;
+  background: #4FC8DB;
+  border: 0px;
+  color: white;
+  height: 25px;
 }
